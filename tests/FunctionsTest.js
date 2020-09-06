@@ -707,6 +707,7 @@ describe("Change the color of chocolates - changeChocolateColor", function () {
     expect(actualResult).toEqual(expectedResult);
   });
 });
+//Progression 8: Change all chocolates of ____ color to ____ color and return [countOfChangedColor, chocolates]
 
 describe("Change the color of chocolates - changeChocolateColorAllOfxCount", function () {
   var candies = ["green", "green", "blue", "blue"];
